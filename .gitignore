@@ -1,0 +1,10 @@
+*
+!.gitignore
+!CLAUDE.md
+!README.md
+!proposed/
+!proposed/**
+!approved/
+!approved/**
+!.claude/
+!.claude/**
