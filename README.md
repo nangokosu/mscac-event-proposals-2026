@@ -11,6 +11,8 @@ Each proposal's `.md` file (and matching `.pdf` once exported for submission) mo
 - **`proposed/`** — drafted and/or submitted, awaiting a decision from the program team.
 - **`approved/`** — signed off by the program team. Move the `.md` + `.pdf` pair here once approved.
 
+`proposed/` files are work-in-progress and safe to edit directly; `approved/` files are final and should not be edited — open a new proposal in `proposed/` instead.
+
 Naming convention: `YYMMDD-event-slug.md`, with a matching `.pdf` where a submitted copy exists.
 
 ## Agents

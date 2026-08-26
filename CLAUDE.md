@@ -25,6 +25,8 @@ Proposals move through two folders that track their current status:
 - **`proposed/`** — a proposal's `.md` file (and matching `.pdf` once exported for submission) lives here from first draft through submission, while awaiting a decision from the program team.
 - **`approved/`** — once the program team signs off, move the `.md` + `.pdf` pair here. This becomes this cohort's own growing set of precedent/reference proposals over time.
 
+Files in `proposed/` are work-in-progress: edit them directly as the plan evolves — updating the budget, activity plan, or any other section in place is expected. Once a file is moved into `approved/`, it is the final, signed-off record and must not be edited. If something needs to change after approval, open a new proposal in `proposed/` rather than editing the approved file.
+
 Naming convention (matches the source repo): `YYMMDD-event-slug.md`, with a matching `.pdf` where a submitted copy exists.
 
 ## Proposal Template
