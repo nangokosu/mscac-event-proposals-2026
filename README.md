@@ -13,7 +13,7 @@ Each proposal's `.md` file (and matching `.pdf` once exported for submission) mo
 
 `proposed/` files are work-in-progress and safe to edit directly; `approved/` files are final and should not be edited — open a new proposal in `proposed/` instead.
 
-Naming convention: `YYMMDD-event-slug.md`, with a matching `.pdf` where a submitted copy exists.
+Naming convention: `YYMMDD-event-slug.md`, with a matching `.pdf` where a submitted copy exists. Generate that `.pdf` with [`scripts/render_proposal_pdf.py`](./scripts/render_proposal_pdf.py) — see "Generating the PDF" under `CLAUDE.md`'s Submission section.
 
 ## Agents
 

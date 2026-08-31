@@ -129,6 +129,18 @@ Collect all of these before writing. Do not start drafting until every item is a
 - **Recipient:** MScAC program team staff email
 - **Deadline:** At least **2 weeks before the event date** (or first session date for a series)
 
+### Generating the PDF
+
+Run `scripts/render_proposal_pdf.py` to turn a proposal's `.md` file into its matching `.pdf`:
+
+```
+python3 scripts/render_proposal_pdf.py proposed/<file>.md proposed/<file>.pdf
+```
+
+Requires Python 3 with `reportlab` installed (`pip install reportlab`). The script only understands the Markdown subset the Proposal Template above uses (H2/H3 headers, `**bold**`, `* ` bullets, `---` dividers, and a single pipe table) — it is not a general Markdown-to-PDF converter, so it won't handle a proposal that deviates from the template's structure.
+
+This is separate from Claude Code's official `document-skills` plugin (the `pdf` skill, `anthropics/skills` marketplace): that plugin is a general-purpose tool for editing, merging, or extracting from arbitrary PDFs, and is not required just to regenerate a proposal's PDF from its Markdown — the committed script handles that directly with no plugin dependency.
+
 ---
 
 ## Writing Guidelines

@@ -8,3 +8,5 @@
 !approved/**
 !.claude/
 !.claude/**
+!scripts/
+!scripts/**
