@@ -21,6 +21,7 @@ Evaluate strictly from `CLAUDE.md` and the proposal file on disk. Do not assume 
    - No funding-rule violations (alcohol, unjustified equipment, non-default venue without a dedicated-outing rationale).
    - Per-head cost is within/near the ~$35–40 norm, or a reason is given if not.
    - Writing guidelines are followed (tone, named time blocks, dietary-collection method stated, reimbursement bullet present and last).
+   - Numeric consistency: every headcount cited anywhere in the proposal — Estimated Attendance, interest-poll or RSVP figures in Purpose/RSVP Plan, and Quantity values in the Budget Breakdown table — agrees with the others. Estimated Attendance must be a range, not a single number, and any single-number figure quoted elsewhere (e.g. "19 students responded") must fall inside that range and match how the budget's Quantity/Per-Person columns were computed, not contradict them.
 
 ## Output
 

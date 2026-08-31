@@ -61,11 +61,11 @@ Naming convention (matches the source repo): `YYMMDD-event-slug.md`, with a matc
 
 ### **Budget Breakdown**
 
-| Item Description | [Quantity] | Estimated Cost |
-| :---- | :---- | :---- |
-| **[Category]:** [Detail] | [Qty or "For N people"] | $[amount] |
-| **[Category]:** [Detail] | [Qty or "Bulk"] | $[amount] |
-| **[Category]:** [Detail] | [Qty] | $[amount] |
+| Item Description | [Quantity] | Estimated Cost | Per-Person Estimate |
+| :---- | :---- | :---- | :---- |
+| **[Category]:** [Detail] | [Qty or "For N people"] | $[amount] | $[amount ÷ attendance] |
+| **[Category]:** [Detail] | [Qty or "Bulk"] | $[amount] | $[amount ÷ attendance] |
+| **[Category]:** [Detail] | [Qty] | $[amount] | $[amount ÷ attendance] |
 
 ---
 
@@ -97,7 +97,7 @@ Collect all of these before writing. Do not start drafting until every item is a
 | 2 | Date(s) and day(s) of week | For series: list all dates |
 | 3 | Start and end time | |
 | 4 | Venue | Room number or external location |
-| 5 | Expected attendance | Per session if recurring |
+| 5 | Expected attendance | Per session if recurring. Always a range (e.g. "15–20"), never a single number |
 | 6 | Budget per line item | User decides; see norms below |
 | 7 | Student organizer names | First names are sufficient |
 | 8 | RSVP method | Discord poll, Partiful, Google Form, etc. |
@@ -145,6 +145,11 @@ Collect all of these before writing. Do not start drafting until every item is a
 - Reference concrete evidence of demand (poll votes, prior event attendance, Discord reactions) when available.
 - One or two sentences is too thin; four or more is too long. Aim for three.
 
+### Attendance Estimates
+
+- State attendance as a range (e.g. "15–20 students"), never a single number — in the header's **Estimated Attendance** field and everywhere else a headcount appears (interest-poll results, RSVP figures, budget Quantity assumptions).
+- A single-number figure from elsewhere (e.g. "19 students responded yes" in a poll) must be restated to match the stated range, not left as a raw count that falls inside or outside it inconsistently.
+
 ### Event Components
 
 - Use named time blocks with times in parentheses: **Dinner & Social (6:00 PM – 7:00 PM):**
@@ -159,6 +164,7 @@ Collect all of these before writing. Do not start drafting until every item is a
 - Round to the nearest $5 or $25 for estimates.
 - The table total must match the **Total Budget Requested** line exactly.
 - Common line items: Main Catering, Refreshments (beverages + snacks), Supplies (disposables, printing), Equipment (if renting/purchasing).
+- Always include a **Per-Person Estimate** column: each line item's Estimated Cost divided by the attendance count it's priced for (or by Quantity, when the item scales per head), to the nearest cent.
 
 ### RSVP Plan
 
