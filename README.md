@@ -13,7 +13,17 @@ Each proposal's `.md` file (and matching `.pdf` once exported for submission) mo
 
 `proposed/` files are work-in-progress and safe to edit directly; `approved/` files are final and should not be edited — open a new proposal in `proposed/` instead.
 
-Naming convention: `YYMMDD-event-slug.md`, with a matching `.pdf` where a submitted copy exists. Generate that `.pdf` with [`scripts/render_proposal_pdf.py`](./scripts/render_proposal_pdf.py) — see "Generating the PDF" under `CLAUDE.md`'s Submission section.
+Naming convention: `YYMMDD-event-slug.md`, with a matching `.pdf` where a submitted copy exists — see PDF Export below for how to generate it.
+
+## PDF Export
+
+Generate a proposal's `.pdf` from its `.md` with [`scripts/render_proposal_pdf.py`](./scripts/render_proposal_pdf.py):
+
+```
+python3 scripts/render_proposal_pdf.py proposed/<file>.md proposed/<file>.pdf
+```
+
+Requires Python 3 with `reportlab` installed (`pip install reportlab`). The script only understands the Markdown subset the Proposal Template in `CLAUDE.md` uses (headers, bold labels, bullets, dividers, and a single budget table), so it won't handle a proposal that deviates from that structure. This is unrelated to Claude Code's `document-skills` plugin (the `pdf` skill) — that plugin is for general PDF editing/merging and isn't needed just to run this script.
 
 ## Agents
 
